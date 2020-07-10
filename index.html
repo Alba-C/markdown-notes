@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+  <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="editor">
+    <div class="editor__header">
+      <h1>Editor View</h1>
+      <button class="editor__header-button" type="button">Pretty</button>
+
+    </div>
+    <hr>
+    <main class="editor-body">
+      <p></p>
+
+    </main>
+  </div>
+
+  <div class="pretty pretty--hidden">
+    <div class="pretty__header">
+      <h1>Pretty View</h1>
+      <button class="pretty__header-button" type="button">Editor</button>
+
+    </div>
+    <hr>
+    <main class="pretty-body">
+      <p></p>
+
+    </main>
+  </div>
+
+
+
+
+
+
+  <!-- scripts -->
+  <script src="index.js"></script>
+</body>
+
+</html>
